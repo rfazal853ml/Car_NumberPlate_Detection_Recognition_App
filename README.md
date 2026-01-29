@@ -132,6 +132,10 @@ Docker & cloud deployment
 ###  Author
 Fazal Ur Rehman
 
+Email:
+```
+rfazal853.ml@gmail.com
+```
 Arifical Intelligene Engineer
 
 #### ⭐ Star the repository if you find this useful!
