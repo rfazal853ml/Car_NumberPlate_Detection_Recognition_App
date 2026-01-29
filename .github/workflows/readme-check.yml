@@ -1,0 +1,28 @@
+name: README Check
+
+on:
+  push:
+    paths:
+      - "README.md"
+
+jobs:
+  readme-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm README exists
+        run: |
+          echo "Checking README.md..."
+          ls -l README.md
+
+      - name: Print README content
+        run: |
+          echo "README.md content:"
+          echo "-------------------"
+          cat README.md
+
+      - name: Success message
+        run: echo "✅ README check passed!"
