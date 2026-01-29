@@ -24,7 +24,6 @@ jobs:
         env:
           VALIDATE_PYTHON: true
           VALIDATE_YAML: true
-          VALIDATE_MARKDOWN: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
